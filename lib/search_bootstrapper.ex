@@ -1,0 +1,2 @@
+defmodule SearchBootstrapper do
+end

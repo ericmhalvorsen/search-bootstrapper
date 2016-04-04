@@ -1,0 +1,8 @@
+use Mix.Config
+
+config :search_bootstrapper, SearchBootstrapper.Repo,
+  adapter: Tds.Ecto,
+  database: "DATABASE_NAME",
+  username: "USERNAME",
+  password: "PASSWORD",
+  hostname: "HOSTNAME"
