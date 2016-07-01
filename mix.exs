@@ -14,7 +14,7 @@ defmodule SearchBootstrapper.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger, :tds, :tds_ecto, :ecto, :exredis]]
+    [applications: [:logger, :exredis, :poison]]
   end
 
   # Dependencies can be Hex packages:
@@ -27,6 +27,9 @@ defmodule SearchBootstrapper.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:exredis, ">= 0.2.2"}, {:tds_ecto, "~> 1.0.2"}]
+    [
+      {:exredis, ">= 0.2.4"},
+      {:poison, "~> 2.0"}
+    ]
   end
 end

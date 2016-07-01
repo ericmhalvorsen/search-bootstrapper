@@ -1,8 +1,8 @@
 %{"decimal": {:hex, :decimal, "1.1.1"},
   "ecto": {:hex, :ecto, "1.1.5"},
-  "eredis": {:hex, :eredis, "1.0.8"},
-  "exredis": {:hex, :exredis, "0.2.3"},
-  "poison": {:hex, :poison, "1.5.2"},
+  "eredis": {:hex, :eredis, "1.0.8", "ab4fda1c4ba7fbe6c19c26c249dc13da916d762502c4b4fa2df401a8d51c5364", [:rebar], []},
+  "exredis": {:hex, :exredis, "0.2.4", "07f4ea69b5cf1912d62cea4599687fedb3efe19cced8ddf087ef63dd17447518", [:mix], [{:eredis, ">= 1.0.8", [hex: :eredis, optional: false]}]},
+  "poison": {:hex, :poison, "2.2.0", "4763b69a8a77bd77d26f477d196428b741261a761257ff1cf92753a0d4d24a63", [:mix], []},
   "poolboy": {:hex, :poolboy, "1.5.1"},
   "tds": {:hex, :tds, "0.5.4"},
   "tds_ecto": {:hex, :tds_ecto, "1.0.2"}}
